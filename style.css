@@ -1,0 +1,898 @@
+#newGround{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(19,103,239,0.5);
+
+}
+
+#newGround .content{
+    width: 600px;
+  height: 40%;
+  margin: auto;
+  margin-top: 250px;
+}
+
+
+#newGround .content .details{
+
+width: 600px;
+  height: 40%;
+
+  
+}
+
+#newGround .content .details p{
+
+ padding-top: 40px; 
+ font-size: 20px;
+ font-family: 'Ubuntu', sans-serif;
+text-align: center;
+
+  
+} 
+
+
+#newGround .content .details h1{
+    font-size: 60px;
+text-align: center;
+   font-weight: bolder; 
+   font-family: 'Signika', sans-serif;
+
+} 
+
+
+#newGround .buttonDetails button{
+
+   width: 200px;
+   height: 40px;
+   font-family: 'Signika', sans-serif;
+   font-size: 20px;
+   background-color: blue;
+   color: white;
+   border: 0px;
+   border-radius: 5px;
+   margin-top: 50px;
+
+} 
+
+
+
+#newGround .buttonDetails .login-button{
+margin-left: 80px;
+
+} 
+
+
+#newGround .buttonDetails button:hover{
+
+   background-color: red;
+
+
+} 
+
+
+
+#bg-image{
+
+  background: url(images/laundry2.jpg) no-repeat 0 0 / cover;
+   position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    
+}
+
+#theLogRegPage{
+
+   margin-top: 150px;
+   background-color: rgba(38, 86, 241,0.5);
+}
+
+
+#theLogRegPage ul li a{
+
+    color: whitesmoke;
+}
+
+
+#theLogRegPage ul li a:hover{
+
+   color: black;
+}
+
+#thelogin form{
+
+   margin-top: 50px;
+}
+
+#thelogin input[type=text]{
+
+   width:300px;
+   height:40px ;
+   color: black;
+
+}
+
+
+#thelogin input[type=password]{
+
+   width:300px;
+   height:40px ;
+   color: black;
+
+}
+
+#thelogin button{
+
+   width:200px;
+   margin-left:50px;
+   
+
+}
+
+
+
+#theregister input[type=text]{
+
+   width:300px;
+   height:40px ;
+   margin-top:30px;
+   color: black;
+
+}
+
+#theregister input[type=email]{
+
+   width:300px;
+   height:40px ;
+   margin-top:30px;
+   color: black;
+
+}
+
+
+
+#theregister input[type=address]{
+
+   width:300px;
+   height:40px ;
+   margin-top:30px;
+   color: black;
+
+
+}
+
+#theregister input[type=password]{
+
+   width:300px;
+   height:40px ;
+   margin-top:30px;
+   color: black;
+
+}
+
+#theregister label{
+
+   padding-top: 33px;
+
+}
+
+
+#theregister button{
+   width:200px;
+   margin-top:30px;
+   margin-bottom: 30px;
+   margin-left:50px;
+}
+
+#theforgot-pw  input[type=text]{
+
+   width:300px;
+   height:40px ;
+   margin-top:30px;
+   color: black;
+
+}
+
+
+#theforgot-pw label{
+
+   padding-top:35px;
+   
+}
+
+
+#theforgot-pw h4{
+  
+   padding-top:50px;
+   padding-left:30px;
+}
+
+
+
+#theforgot-pw button{
+
+width:200px;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:50px;
+}
+
+
+.addCust{
+
+ margin-top: 20px;
+
+}
+
+
+.addCust a{
+
+   font-size: 20px;
+
+}
+
+.addCust a:hover{
+
+   font-size: 25px;
+  color: green;
+  text-decoration: none;
+
+}
+
+
+
+
+.pendTransact{
+
+    margin-top: 20px;
+
+}
+
+
+.pendTransact a{
+
+    font-size: 20px;
+}
+
+.pendTransact a:hover{
+
+    font-size: 25px;
+    color: green;
+  text-decoration: none;
+
+}
+
+
+
+
+
+.viewTransact{
+
+    margin-top: 20px;
+
+}
+
+
+.viewTransact a{
+
+    font-size: 20px;
+
+
+}
+
+
+
+.viewTransact a:hover{
+
+    font-size: 25px;
+    color: green;
+  text-decoration: none;
+
+}
+
+
+
+.viewCustomer{
+
+    margin-top: 20px;
+
+}
+
+
+
+.viewCustomer a{
+
+    font-size: 20px;
+
+}
+
+.viewCustomer a:hover{
+
+    font-size: 25px;
+    color: green;
+   text-decoration: none;
+
+
+}
+
+.vendAddInvent{
+
+    margin-top: 20px;
+
+}
+
+.vendAddInvent a{
+    font-size: 20px;
+
+  
+}
+
+
+.vendAddInvent a:hover{
+
+    font-size: 25px;
+    color: green;
+   text-decoration: none;
+
+
+}
+
+
+
+.vendViewAllInvent{
+
+    margin-top: 20px;
+
+}
+
+.vendViewAllInvent a{
+    font-size: 20px;
+
+  
+}
+
+
+.vendViewAllInvent a:hover{
+
+    font-size: 25px;
+    color: green;
+   text-decoration: none;
+
+
+}
+
+
+
+
+
+.loggingOut{
+
+   margin-top: 20px;
+}
+
+
+
+
+.loggingOut a{
+
+   font-size: 20px;
+   text-decoration: none;
+}
+
+
+.loggingOut a:hover{
+
+   font-size: 25px;
+   color: green;
+  text-decoration: none;
+
+}
+
+
+.noOfCustomers{
+
+  /**width: 80px;
+  height: 100px;**/
+  background-color: blue;
+  color:white;
+  text-align:center;
+  margin-left: 1em;
+  margin-top: 30px;
+}
+
+
+
+.noOfCustomers p{
+
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+
+.noOfPendingTrans{
+
+/**width: 80px;
+height: 100px;**/
+background-color: red;
+color: white;
+text-align: center;
+  margin-left: 1em;
+margin-top: 30px;
+}
+
+.noOfPendingTrans p{
+
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+
+.viewAllCust{
+
+  /**width: 80px;
+  height: 100px;**/
+  background-color: orange;
+  color: black;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px;
+}
+
+
+.viewAllCust p{
+
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+
+.addCust1{
+
+  /**width: 80px;
+  height: 100px;**/
+  background-color: orange;
+  color: black;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px; 
+}
+
+
+
+.addCust1 p{
+
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+
+
+.viewallTrans{
+/**width: 80px;
+  height: 100px;**/
+  background-color: blue;
+  color: white;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px;
+
+}
+
+.viewallTrans p{
+
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+
+.vendorAddInvent{
+/**width: 80px;
+  height: 100px;**/
+  background-color: purple;
+  color: white;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px;
+
+}
+
+.vendorAddInvent p{
+
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+.vendorViewInvent{
+/**width: 80px;
+  height: 100px;**/
+  background-color: purple;
+  color: white;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px;
+
+}
+
+.vendorViewInvent p{
+
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+
+
+.logOut{
+/**width: 80px;
+  height: 100px;**/
+  background-color: red;
+  color:white;
+    text-align: center;
+  margin-left: 1em;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+.logOut {
+
+  font-size: 20px;
+  padding-top: 40px;
+
+
+}
+
+#addNewCustBackground{
+
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: -o-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: -moz-linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+    background: linear-gradient(70deg, #fff810  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
+
+#addNewCustBackground .theCustReg{
+
+  margin-top: 120px;
+  border-radius: 20px;
+  margin-bottom: 120px;
+}
+
+#addNewCustBackground h2{
+    
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#addNewCustBackground .theCustReg label{
+
+  margin-top: 20px;
+  
+}
+
+
+#addNewCustBackground .theCustReg button{
+
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 40%;
+  background-color: #63e89e;
+  font-size: 20px;
+  
+}
+
+
+#addNewCustBackground .theCustReg button:hover{
+
+  
+  background-color: #f12ae0;
+  color: white;
+  
+}
+
+#addNewCustBackground .theCustReg .goBackToIndex{
+
+  
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-top: 10px;
+  
+}
+
+
+#addNewCustBackground .theCustReg .goBackToIndex a{
+
+ color: white;
+ text-decoration: none;
+  
+}
+
+
+#addNewCustBackground .theCustReg .goBackToIndex:hover{
+
+   background-color: red;
+}
+
+
+#addNewCustBackground .theCustReg .goBackToIndex a:hover{
+
+   color: black;
+}
+
+#viewCustomers{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+}
+
+
+#viewCustomers button{
+     width: 20%;
+     margin-left: 40%;
+     margin-bottom: 20px;
+}
+
+
+#viewCustomers table{
+     margin-top: 20px;
+}
+
+
+#viewCustomers .delCust{
+
+  width: 80px;
+  margin-left: -5px;
+}
+
+#viewCustomers .editCust{
+
+  width: 80px;
+    margin-left: -5px;
+
+}
+
+
+#viewCustomers .addCustTran{
+
+  width: 80px;
+   margin-left: -2px;
+
+}
+
+#theAddCustTransactionPage{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: -webkit-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: -o-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: -moz-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+   
+}
+
+
+
+#addInventoryBG{
+
+  width: 100%;
+  height: 100%;
+ background: -webkit-linear-gradient(70deg, #4bf442 40%, #f7d4e1 40%);
+  background: -o-linear-gradient(70deg, #4bf442 40%, #f7d4e1 40%);
+  background: -moz-linear-gradient(70deg, #4bf442 40%, #f7d4e1 40%);
+  background: linear-gradient(70deg, #4bf442 40%, #f7d4e1 40%);
+}
+
+
+#addInventoryBG .theAddInvent{
+
+  margin-top: 100px;
+  background-color: rgba(237,237,237,0.5);
+}
+
+
+#addInventoryBG .theAddInvent h1{
+
+  text-align: center;
+}
+
+
+#addInventoryBG .theAddInvent label{
+
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+
+#addInventoryBG .theAddInvent button{
+
+ width: 150px;
+ height: 50px;
+ border-radius: 5px;
+ margin-top: 20px;
+ border: 0px solid;
+
+}
+
+#addInventoryBG .theAddInvent .viewAllTransButton{
+
+  margin-left: 130px;
+  background-color: green;
+}
+
+#addInventoryBG .theAddInvent .viewAllTransButton a{
+color: white;
+font-size: 15px;
+}
+
+
+
+
+#addInventoryBG .theAddInvent .addInventButton{
+
+  margin-left:20px;
+  background-color: green;
+}
+
+#addInventoryBG .theAddInvent .addInventButton a{
+color: white;
+font-size: 15px;
+}
+
+
+#addInventoryBG .theAddInvent .cancelInventButton{
+
+  margin-left:20px;
+  background-color: green;
+}
+
+#addInventoryBG .theAddInvent .cancelInventButton a{
+color: white;
+font-size: 15px;
+}
+
+
+
+
+
+#addInventoryBG .viewAllTable{
+
+    margin-top: 150px;
+    background-color: rgba(66,134,244,0.5);
+  
+}
+
+#addInventoryBG table{
+
+    margin-top: 20px;
+   
+  
+}
+
+
+#addInventoryBG .viewAllTable span a{
+
+    color: white;
+
+}
+
+
+
+
+/** STYLING FOR EDIT INVENTORY START**/
+
+#editInventoryBG{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ background: -webkit-linear-gradient(70deg, #f9bd7c 40%, #7cf9e5 40%);
+  background: -o-linear-gradient(70deg, #f9bd7c 40%, #7cf9e5 40%);
+  background: -moz-linear-gradient(70deg, #f9bd7c 40%, #7cf9e5 40%);
+  background: linear-gradient(70deg, #f9bd7c 40%, #7cf9e5 40%);
+}
+
+
+#editInventoryBG .theEditInvent{
+
+  margin-top: 100px;
+  background-color: rgba(249,124,158,0.7);
+}
+
+
+#editInventoryBG .theEditInvent h1{
+
+  text-align: center;
+}
+
+
+#editInventoryBG .theEditInvent label{
+
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+
+#editInventoryBG .theEditInvent button{
+
+ width: 150px;
+ height: 50px;
+ border-radius: 5px;
+ margin-top: 20px;
+ border: 0px solid;
+
+}
+
+#editInventoryBG .theEditInvent .viewAllTransButton{
+
+  margin-left: 130px;
+  background-color: green;
+}
+
+#editInventoryBG .theEditInvent .viewAllTransButton a{
+color: white;
+font-size: 15px;
+}
+
+
+
+
+#editInventoryBG .theEditInvent .editInventButton{
+
+  margin-left:20px;
+  background-color: green;
+}
+
+#editInventoryBG .theEditInvent .editInventButton a{
+color: white;
+font-size: 15px;
+}
+
+
+#editInventoryBG .theEditInvent .cancelInventButton{
+
+  margin-left:20px;
+  background-color: green;
+}
+
+#editInventoryBG .theEditInvent .cancelInventButton a{
+color: white;
+font-size: 15px;
+}
+
+
+/** STYLING FOR EDIT INVENTORY ENDS**/
+
+
+
+/** STYLING ADD CUSTOMER TRANSACTION PAGE START **/
+
+#theAddCustTransactionPage abbr .transactButton{
+  
+ float: right;
+ margin-top: 5px;
+
+}
+
+/** STYLING ADD CUSTOMER TRANSACTION PAGE ENDS **/
