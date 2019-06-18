@@ -680,17 +680,7 @@ margin-top: 30px;
 
 }
 
-#theAddCustTransactionPage{
 
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: -webkit-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
-    background: -o-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
-    background: -moz-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
-    background: linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
-   
-}
 
 
 
@@ -888,11 +878,27 @@ font-size: 15px;
 
 /** STYLING ADD CUSTOMER TRANSACTION PAGE START **/
 
+#theAddCustTransactionPage{
+
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  position:absolute;
+  background: -webkit-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: -o-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: -moz-linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+    background: linear-gradient(50deg, #2196f3  50%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #d358e8 60%, #ff9800 60%);
+}
+
+
+
+
 #theAddCustTransactionPage abbr .transactButton{
   
  float: right;
  margin-top: 5px;
 
 }
+
 
 /** STYLING ADD CUSTOMER TRANSACTION PAGE ENDS **/

@@ -2,7 +2,7 @@
     define("DBSERVER", "localhost");
     define("DBUSER", "root");
     define("DBPASS", "");
-    define("DBNAME", "thecleaner");
+    define("DBNAME", "thecleaners");
 
   //CONNECTING TO THE SERVER
     $db_connect = mysqli_connect(DBSERVER,DBUSER,DBPASS);

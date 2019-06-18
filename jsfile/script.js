@@ -67,16 +67,4 @@ function deleteconfig(){
 }
 
 
-
-//script for adding new transaction form for customer 
-//in the add customer transaction page
-
-
-
-
-$("toDisplayTransactForm") .click(function(){
-
-
-alert("woooooooow");
-
-});
+ 
