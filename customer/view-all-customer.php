@@ -3,6 +3,7 @@
      require_once("../db.php");
      require_once("../functions/dbandler.php");
      require_once("../login-process.php");
+     require_once("process-add-cust-trans.php");
 
 ?>
 
@@ -72,7 +73,7 @@
                      	$table .= "<td><button class='delCust'>Delete</button></td>";
                      	$table .= "<td><button class='editCust'>Edit</button></td>";
  
-                      $table .= "<td><button> <a href='add-customer-trans.php'>+</a> </button></td>";
+                      $table .= "<td><button type='submit' name='theAddButton'> <a href='add-customer-trans.php?theCustomerId ={$fetchCust['cust_reg_id']}'>+</a> </button></td>";
                         $table .= "</tr>";
 
                      }

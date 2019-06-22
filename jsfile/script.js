@@ -1,70 +1,67 @@
-$(registerPage) .click(function(){
+$(registerPage).click(function() {
 
- $(myRegistrationForm) .show('slow');
+    $(myRegistrationForm).show('slow');
 
 });
 
 
 
-$(registerPage) .click(function(){
+$(registerPage).click(function() {
 
-    $(myLoginForm,myForgotPw).hide('fast');
-   
-   
-   });
-   
+    $(myLoginForm, myForgotPw).hide('fast');
 
 
-$(loginPage) .click(function(){
-
-    $(myLoginForm) .show('slow');
-   
-   });
+});
 
 
 
-   
-$(loginPage) .click(function(){
+$(loginPage).click(function() {
 
-  $(myRegistrationForm,myForgotPw).hide('fast');
-    
-   
-   
-   });
+    $(myLoginForm).show('slow');
+
+});
 
 
 
 
-   $(forgotPwPage) .click(function(){
+$(loginPage).click(function() {
 
-    $(myForgotPw) .show('slow');
-   
-   });
+    $(myRegistrationForm, myForgotPw).hide('fast');
 
 
-   
-   $(forgotPwPage) .click(function(){
+
+});
+
+
+
+
+$(forgotPwPage).click(function() {
+
+    $(myForgotPw).show('slow');
+
+});
+
+
+
+$(forgotPwPage).click(function() {
 
     $(myLoginForm, myRegistrationForm).hide('fast');
-    
- 
-   });
+
+
+});
 
 
 
-function deleteconfig(){
-   var del = confirm("Are you sure you want to delete");
+function deleteconfig() {
+    var del = confirm("Are you sure you want to delete");
 
-   if (del==true) {
+    if (del == true) {
 
-     alert ('Record Delete');
-   }else{
+        alert('Record Delete');
+    } else {
 
-    alert('Record Not deleted');
-   }
+        alert('Record Not deleted');
+    }
 
-   return del;
+    return del;
 }
-
-
- 
